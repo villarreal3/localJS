@@ -1,0 +1,12 @@
+.centerDiv {
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    border:  3px solid green;
+}
+
+.btnLog, .btnCreate {
+    background-color: aqua;
+    width: 60%;
+    height: 10rem;
+}
