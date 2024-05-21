@@ -1,0 +1,22 @@
+.parent {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.children {
+    border: 0.1rem solid gray;
+    font-size: 3rem;
+}
+
+.children > form {
+    padding: 2rem;
+}
+
+.children > form > label, .children > form > input, .children > form > button {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
